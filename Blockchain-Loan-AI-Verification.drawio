@@ -1,6 +1,6 @@
 <mxfile host="Electron">
   <diagram name="Page-1" id="1m18OUMBiCnqXR3X_weR">
-    <mxGraphModel dx="1274" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1981" dy="1140" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yWQmhR5SvjO2d_ApR-Vz-25" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Block" vertex="1">
-          <mxGeometry height="260" width="280" x="145" y="480" as="geometry" />
+          <mxGeometry height="260" width="280" x="150" y="60" as="geometry" />
         </mxCell>
         <mxCell id="yWQmhR5SvjO2d_ApR-Vz-26" parent="yWQmhR5SvjO2d_ApR-Vz-25" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Prev block&lt;br&gt;&lt;span style=&quot;text-decoration-line: inherit; background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;hash&lt;/span&gt;" vertex="1">
           <mxGeometry height="40" width="100" x="20" y="40" as="geometry" />
@@ -32,13 +32,16 @@
           <mxGeometry height="40" width="100" x="30" y="200" as="geometry" />
         </mxCell>
         <mxCell id="yWQmhR5SvjO2d_ApR-Vz-37" parent="1" style="whiteSpace=wrap;html=1;fontStyle=1;startSize=23;" value="Next Block" vertex="1">
-          <mxGeometry height="60" width="120" x="530" y="580" as="geometry" />
+          <mxGeometry height="60" width="120" x="535" y="160" as="geometry" />
         </mxCell>
         <mxCell id="yWQmhR5SvjO2d_ApR-Vz-42" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" value="Node" vertex="1">
-          <mxGeometry height="700" width="760" x="40" y="810" as="geometry" />
+          <mxGeometry height="700" width="760" x="45" y="390" as="geometry" />
         </mxCell>
-        <mxCell id="QjNtAW9olDSeZ8pOo51i-5" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Bank Account" vertex="1">
-          <mxGeometry height="300" width="340" x="440" y="975" as="geometry" />
+        <mxCell id="QjNtAW9olDSeZ8pOo51i-16" parent="yWQmhR5SvjO2d_ApR-Vz-42" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" value="BL&lt;div&gt;Ledger&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="90" x="330" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="QjNtAW9olDSeZ8pOo51i-5" parent="yWQmhR5SvjO2d_ApR-Vz-42" style="swimlane;whiteSpace=wrap;html=1;" value="Bank Account" vertex="1">
+          <mxGeometry height="300" width="340" x="390" y="60" as="geometry" />
         </mxCell>
         <mxCell id="QjNtAW9olDSeZ8pOo51i-6" edge="1" parent="QjNtAW9olDSeZ8pOo51i-5" source="QjNtAW9olDSeZ8pOo51i-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="QjNtAW9olDSeZ8pOo51i-7">
           <mxGeometry relative="1" x="-0.069" as="geometry" />
@@ -66,23 +69,14 @@
         <mxCell id="QjNtAW9olDSeZ8pOo51i-13" parent="QjNtAW9olDSeZ8pOo51i-5" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Receive" vertex="1">
           <mxGeometry height="50" width="90" x="215" y="220" as="geometry" />
         </mxCell>
-        <mxCell id="QjNtAW9olDSeZ8pOo51i-14" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="User" vertex="1">
-          <mxGeometry height="300" width="280" x="70" y="950" as="geometry" />
-        </mxCell>
-        <mxCell id="QjNtAW9olDSeZ8pOo51i-15" parent="QjNtAW9olDSeZ8pOo51i-14" style="rounded=0;whiteSpace=wrap;html=1;" value="Bank Account" vertex="1">
-          <mxGeometry height="60" width="120" x="135" y="70" as="geometry" />
-        </mxCell>
-        <mxCell id="QjNtAW9olDSeZ8pOo51i-16" parent="QjNtAW9olDSeZ8pOo51i-14" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" value="BL&lt;div&gt;Ledger&lt;/div&gt;" vertex="1">
-          <mxGeometry height="110" width="90" x="150" y="170" as="geometry" />
-        </mxCell>
-        <mxCell id="QjNtAW9olDSeZ8pOo51i-17" parent="QjNtAW9olDSeZ8pOo51i-14" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="username" vertex="1">
-          <mxGeometry height="40" width="90" x="25" y="80" as="geometry" />
+        <mxCell id="QjNtAW9olDSeZ8pOo51i-14" parent="yWQmhR5SvjO2d_ApR-Vz-42" style="swimlane;whiteSpace=wrap;html=1;" value="User" vertex="1">
+          <mxGeometry height="300" width="280" x="40" y="70" as="geometry" />
         </mxCell>
         <mxCell id="QjNtAW9olDSeZ8pOo51i-18" parent="QjNtAW9olDSeZ8pOo51i-14" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="AI Model&lt;div&gt;Credentials&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="100" x="20" y="195" as="geometry" />
+          <mxGeometry height="60" width="100" x="20" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="QjNtAW9olDSeZ8pOo51i-19" edge="1" parent="1" source="QjNtAW9olDSeZ8pOo51i-15" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="QjNtAW9olDSeZ8pOo51i-5">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="QjNtAW9olDSeZ8pOo51i-17" parent="QjNtAW9olDSeZ8pOo51i-14" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="username" vertex="1">
+          <mxGeometry height="40" width="90" x="160" y="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
